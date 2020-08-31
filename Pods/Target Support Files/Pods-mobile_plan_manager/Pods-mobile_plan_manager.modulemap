@@ -1,0 +1,6 @@
+module Pods_mobile_plan_manager {
+  umbrella header "Pods-mobile_plan_manager-umbrella.h"
+
+  export *
+  module * { export * }
+}

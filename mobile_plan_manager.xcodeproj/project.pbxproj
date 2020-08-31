@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE151C5424F3B80000ACF9E0 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C5324F3B80000ACF9E0 /* registerViewController.swift */; };
+		EE151C5624F3B81100ACF9E0 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C5524F3B81100ACF9E0 /* loginViewController.swift */; };
+		EE151C5F24F68DFF00ACF9E0 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C5E24F68DFF00ACF9E0 /* mainViewController.swift */; };
+		EE151C6124F6B51900ACF9E0 /* balanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C6024F6B51900ACF9E0 /* balanceViewController.swift */; };
+		EE151C6324F7B34900ACF9E0 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C6224F7B34900ACF9E0 /* dataViewController.swift */; };
+		EE151C6524FA64BE00ACF9E0 /* callsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C6424FA64BE00ACF9E0 /* callsViewController.swift */; };
+		EE151C6724FA64C800ACF9E0 /* smsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE151C6624FA64C800ACF9E0 /* smsViewController.swift */; };
+		EE4C412C24E4447E0000C354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C412B24E4447E0000C354 /* AppDelegate.swift */; };
+		EE4C412E24E4447E0000C354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C412D24E4447E0000C354 /* SceneDelegate.swift */; };
+		EE4C413024E4447E0000C354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C412F24E4447E0000C354 /* ViewController.swift */; };
+		EE4C413324E4447E0000C354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C413124E4447E0000C354 /* Main.storyboard */; };
+		EE4C413624E4447E0000C354 /* mobile_plan_manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE4C413424E4447E0000C354 /* mobile_plan_manager.xcdatamodeld */; };
+		EE4C413824E4447F0000C354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4C413724E4447F0000C354 /* Assets.xcassets */; };
+		EE4C413B24E4447F0000C354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C413924E4447F0000C354 /* LaunchScreen.storyboard */; };
+		F779087A3BE9E440F31379CB /* libPods-mobile_plan_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8044583E3E2BB85584A67D /* libPods-mobile_plan_manager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E8044583E3E2BB85584A67D /* libPods-mobile_plan_manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobile_plan_manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4357A4F3BC208EABE8098CC /* Pods-mobile_plan_manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile_plan_manager.release.xcconfig"; path = "Target Support Files/Pods-mobile_plan_manager/Pods-mobile_plan_manager.release.xcconfig"; sourceTree = "<group>"; };
+		BF96124B324B838765435A70 /* Pods-mobile_plan_manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile_plan_manager.debug.xcconfig"; path = "Target Support Files/Pods-mobile_plan_manager/Pods-mobile_plan_manager.debug.xcconfig"; sourceTree = "<group>"; };
+		EE151C5324F3B80000ACF9E0 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		EE151C5524F3B81100ACF9E0 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		EE151C5E24F68DFF00ACF9E0 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		EE151C6024F6B51900ACF9E0 /* balanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balanceViewController.swift; sourceTree = "<group>"; };
+		EE151C6224F7B34900ACF9E0 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
+		EE151C6424FA64BE00ACF9E0 /* callsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callsViewController.swift; sourceTree = "<group>"; };
+		EE151C6624FA64C800ACF9E0 /* smsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smsViewController.swift; sourceTree = "<group>"; };
+		EE4C412824E4447E0000C354 /* mobile_plan_manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile_plan_manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C412B24E4447E0000C354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE4C412D24E4447E0000C354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE4C412F24E4447E0000C354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE4C413224E4447E0000C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4C413524E4447E0000C354 /* mobile_plan_manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mobile_plan_manager.xcdatamodel; sourceTree = "<group>"; };
+		EE4C413724E4447F0000C354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4C413A24E4447F0000C354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4C413C24E4447F0000C354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4C412524E4447E0000C354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779087A3BE9E440F31379CB /* libPods-mobile_plan_manager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662489100DFDA2A4BF12DFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8044583E3E2BB85584A67D /* libPods-mobile_plan_manager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86BEE6C2F8272482860A8E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF96124B324B838765435A70 /* Pods-mobile_plan_manager.debug.xcconfig */,
+				A4357A4F3BC208EABE8098CC /* Pods-mobile_plan_manager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE151C4F24F2954100ACF9E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C412F24E4447E0000C354 /* ViewController.swift */,
+				EE151C5324F3B80000ACF9E0 /* registerViewController.swift */,
+				EE151C5524F3B81100ACF9E0 /* loginViewController.swift */,
+				EE151C5E24F68DFF00ACF9E0 /* mainViewController.swift */,
+				EE151C6024F6B51900ACF9E0 /* balanceViewController.swift */,
+				EE151C6224F7B34900ACF9E0 /* dataViewController.swift */,
+				EE151C6424FA64BE00ACF9E0 /* callsViewController.swift */,
+				EE151C6624FA64C800ACF9E0 /* smsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EE151C5024F2955100ACF9E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C413124E4447E0000C354 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE4C411F24E4447E0000C354 = {
+			isa = PBXGroup;
+			children = (
+				EE4C412A24E4447E0000C354 /* mobile_plan_manager */,
+				EE4C412924E4447E0000C354 /* Products */,
+				86BEE6C2F8272482860A8E55 /* Pods */,
+				662489100DFDA2A4BF12DFC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4C412924E4447E0000C354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C412824E4447E0000C354 /* mobile_plan_manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4C412A24E4447E0000C354 /* mobile_plan_manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C412B24E4447E0000C354 /* AppDelegate.swift */,
+				EE4C412D24E4447E0000C354 /* SceneDelegate.swift */,
+				EE151C5024F2955100ACF9E0 /* Views */,
+				EE151C4F24F2954100ACF9E0 /* Controllers */,
+				EE4C413724E4447F0000C354 /* Assets.xcassets */,
+				EE4C413924E4447F0000C354 /* LaunchScreen.storyboard */,
+				EE4C413C24E4447F0000C354 /* Info.plist */,
+				EE4C413424E4447E0000C354 /* mobile_plan_manager.xcdatamodeld */,
+			);
+			path = mobile_plan_manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4C412724E4447E0000C354 /* mobile_plan_manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C413F24E4447F0000C354 /* Build configuration list for PBXNativeTarget "mobile_plan_manager" */;
+			buildPhases = (
+				B94BF309208CC9648EB156A4 /* [CP] Check Pods Manifest.lock */,
+				EE4C412424E4447E0000C354 /* Sources */,
+				EE4C412524E4447E0000C354 /* Frameworks */,
+				EE4C412624E4447E0000C354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobile_plan_manager;
+			productName = mobile_plan_manager;
+			productReference = EE4C412824E4447E0000C354 /* mobile_plan_manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4C412024E4447E0000C354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Konstantinos Christopoulos";
+				TargetAttributes = {
+					EE4C412724E4447E0000C354 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EE4C412324E4447E0000C354 /* Build configuration list for PBXProject "mobile_plan_manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4C411F24E4447E0000C354;
+			productRefGroup = EE4C412924E4447E0000C354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4C412724E4447E0000C354 /* mobile_plan_manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4C412624E4447E0000C354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C413B24E4447F0000C354 /* LaunchScreen.storyboard in Resources */,
+				EE4C413824E4447F0000C354 /* Assets.xcassets in Resources */,
+				EE4C413324E4447E0000C354 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B94BF309208CC9648EB156A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobile_plan_manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4C412424E4447E0000C354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE151C6324F7B34900ACF9E0 /* dataViewController.swift in Sources */,
+				EE4C413624E4447E0000C354 /* mobile_plan_manager.xcdatamodeld in Sources */,
+				EE4C413024E4447E0000C354 /* ViewController.swift in Sources */,
+				EE151C5624F3B81100ACF9E0 /* loginViewController.swift in Sources */,
+				EE4C412C24E4447E0000C354 /* AppDelegate.swift in Sources */,
+				EE151C5424F3B80000ACF9E0 /* registerViewController.swift in Sources */,
+				EE151C6124F6B51900ACF9E0 /* balanceViewController.swift in Sources */,
+				EE151C6524FA64BE00ACF9E0 /* callsViewController.swift in Sources */,
+				EE151C6724FA64C800ACF9E0 /* smsViewController.swift in Sources */,
+				EE4C412E24E4447E0000C354 /* SceneDelegate.swift in Sources */,
+				EE151C5F24F68DFF00ACF9E0 /* mainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4C413124E4447E0000C354 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C413224E4447E0000C354 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4C413924E4447F0000C354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C413A24E4447F0000C354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4C413D24E4447F0000C354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE4C413E24E4447F0000C354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4C414024E4447F0000C354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF96124B324B838765435A70 /* Pods-mobile_plan_manager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mobile_plan_manager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christopoulosk.mobile-plan-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4C414124E4447F0000C354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4357A4F3BC208EABE8098CC /* Pods-mobile_plan_manager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mobile_plan_manager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christopoulosk.mobile-plan-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4C412324E4447E0000C354 /* Build configuration list for PBXProject "mobile_plan_manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C413D24E4447F0000C354 /* Debug */,
+				EE4C413E24E4447F0000C354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C413F24E4447F0000C354 /* Build configuration list for PBXNativeTarget "mobile_plan_manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C414024E4447F0000C354 /* Debug */,
+				EE4C414124E4447F0000C354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE4C413424E4447E0000C354 /* mobile_plan_manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE4C413524E4447E0000C354 /* mobile_plan_manager.xcdatamodel */,
+			);
+			currentVersion = EE4C413524E4447E0000C354 /* mobile_plan_manager.xcdatamodel */;
+			path = mobile_plan_manager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE4C412024E4447E0000C354 /* Project object */;
+}
